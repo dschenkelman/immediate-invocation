@@ -39,7 +39,7 @@ This is a bit verbose. Now an example using this module:
 ### Invoking a callback with this module (immediate)
 
 ```js
-var immediate = require('immediate');
+var immediate = require('immediate-invocation');
 
 function addNumber(first, second, cb) {
   if (first === null) {
